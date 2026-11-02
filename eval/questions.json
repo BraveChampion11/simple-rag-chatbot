@@ -1,0 +1,32 @@
+[
+  {"question": "What is multi-head attention?", "source": "attention_is_all_you_need.pdf", "keywords": ["multi-head attention"], "in_scope": true},
+  {"question": "Why does the Transformer scale the dot products in attention?", "source": "attention_is_all_you_need.pdf", "keywords": ["extremely small gradients", "scaled dot-product", "dot products grow large"], "in_scope": true},
+  {"question": "What optimizer and learning rate warmup did the Transformer use?", "source": "attention_is_all_you_need.pdf", "keywords": ["warmup", "adam optimizer"], "in_scope": true},
+  {"question": "How does the Transformer encode the order of tokens in a sequence?", "source": "attention_is_all_you_need.pdf", "keywords": ["positional encoding"], "in_scope": true},
+
+  {"question": "What is masked language modeling in BERT?", "source": "bert.pdf", "keywords": ["masked lm", "masked language model", "mlm"], "in_scope": true},
+  {"question": "What is the next sentence prediction task?", "source": "bert.pdf", "keywords": ["next sentence prediction", "nsp"], "in_scope": true},
+  {"question": "How many parameters do BERT BASE and BERT LARGE have?", "source": "bert.pdf", "keywords": ["110m", "340m"], "in_scope": true},
+  {"question": "Which datasets was BERT pre-trained on?", "source": "bert.pdf", "keywords": ["bookscorpus", "english wikipedia"], "in_scope": true},
+
+  {"question": "What is the difference between RAG-Sequence and RAG-Token?", "source": "rag_paper.pdf", "keywords": ["rag-sequence", "rag-token"], "in_scope": true},
+  {"question": "Which retriever and generator models make up RAG?", "source": "rag_paper.pdf", "keywords": ["dpr", "bart"], "in_scope": true},
+  {"question": "What is the non-parametric memory in RAG?", "source": "rag_paper.pdf", "keywords": ["non-parametric memory"], "in_scope": true},
+
+  {"question": "What is the degradation problem in deep networks?", "source": "resnet.pdf", "keywords": ["degradation"], "in_scope": true},
+  {"question": "What is a shortcut connection in a residual network?", "source": "resnet.pdf", "keywords": ["shortcut connection", "identity mapping", "residual learning"], "in_scope": true},
+  {"question": "How deep were the residual networks that won ILSVRC 2015?", "source": "resnet.pdf", "keywords": ["152 layers", "152"], "in_scope": true},
+  {"question": "What is the bottleneck design in ResNet?", "source": "resnet.pdf", "keywords": ["bottleneck"], "in_scope": true},
+
+  {"question": "What does Adam stand for?", "source": "adam_optimizer.pdf", "keywords": ["adaptive moment estimation"], "in_scope": true},
+  {"question": "What default hyperparameter values are recommended for Adam?", "source": "adam_optimizer.pdf", "keywords": ["0.999"], "in_scope": true},
+  {"question": "What is bias correction in Adam?", "source": "adam_optimizer.pdf", "keywords": ["bias correction", "bias-corrected", "initialization bias"], "in_scope": true},
+  {"question": "What is AdaMax?", "source": "adam_optimizer.pdf", "keywords": ["adamax"], "in_scope": true},
+
+  {"question": "Who won the 2018 FIFA World Cup?", "in_scope": false},
+  {"question": "What is the capital of France?", "in_scope": false},
+  {"question": "How do I bake sourdough bread?", "in_scope": false},
+  {"question": "What is the current price of Bitcoin?", "in_scope": false},
+  {"question": "Who is the president of the United States?", "in_scope": false},
+  {"question": "Hello, how are you today?", "in_scope": false}
+]

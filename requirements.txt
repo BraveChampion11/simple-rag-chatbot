@@ -1,0 +1,9 @@
+langchain-core
+langchain-community
+langchain-ollama
+langchain-text-splitters
+faiss-cpu
+rank-bm25
+pypdf
+pyyaml
+numpy

@@ -1,0 +1,17 @@
+llm_model: qwen2.5:1.5b
+embed_model: all-minilm
+
+paths:
+  raw: data/raw
+  index: storage/faiss
+  manifest: storage/manifest.json
+
+chunking:
+  size: 600          # all-minilm has a short context window, so keep chunks smaller
+  overlap: 90
+
+retrieval:
+  k: 4
+  fetch_k: 12
+  hybrid: true
+  max_distance: 1.25  # L2 distance on normalized vectors (0 = identical); tune it
